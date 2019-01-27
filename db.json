@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "username": "fabio",
+      "password": "lego"
+    },
+    {
+      "username": "monika",
+      "password": "lowe"
+    }
+  ],
+  "notelist": [
+    {
+      "username": "monika",
+      "notes": "anus"
+    },
+    {
+      "username": "monika",
+      "notes": "gay"
+    },
+    {
+      "username": "monika",
+      "notes": "penis"
+    },
+    {
+      "username": "fabio",
+      "notes": "dsdsd"
+    },
+    {
+      "username": "fabio",
+      "notes": "fdsfdf"
+    },
+    {
+      "username": "fabio",
+      "notes": "gfdgfs"
+    },
+    {
+      "username": "fabio",
+      "notes": "adsdsd"
+    }
+  ]
+}

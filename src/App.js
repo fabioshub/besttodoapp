@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './components/tabbar.css'
+import Navbar from './components/navbar.js';
+import LoginScreen from './components/login.js';
+import NotesContainer from './components/notesContainer.js';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import SearchIcon from '@material-ui/icons/Search';
+import DirectionsIcon from '@material-ui/icons/Directions';
+import Router from './components/router.js'
+import { BrowserRouter } from 'react-router-dom';
+
+
+
 
 class App extends Component {
   render() {
     return (
+      <BrowserRouter>
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <Router />
+          <Navbar />
+
       </div>
+      </BrowserRouter>
     );
   }
 }

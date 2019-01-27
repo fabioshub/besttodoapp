@@ -1,0 +1,14 @@
+#deletebutton {
+    font-size: 1.3em;
+    border: none;
+    color: hsl(0, 100%, 73%);
+    background: white;
+    
+}
+
+#donebutton {
+    font-size: 1.3em;
+    border: none;
+    color: rgb(113, 197, 64);
+}
+
